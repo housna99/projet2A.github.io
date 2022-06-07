@@ -9,7 +9,10 @@
   </head>
   <body>
     <header>
-      <div class="logo">Mines Nancy</div>
+      <div class="logo">
+        <img src="images/web-ecole-des-mines-de-nancy.png" target="_blank" alt="" style="width: 27%;margin-left: -5%;margin-bottom: 35%;"/>
+
+      </div>
       <div class="toggle"></div>
       <div class="navigation">
         <ul>
@@ -28,30 +31,29 @@
                 <img src="images/github.png" target="_blank" alt="" style="width: 150%; margin-left:30px;"/>
               </a>
             </li>
-            <li>
-              <a href="https://instagram.com">
-                <img src="images/instagram.png" target="_blank" alt="" />
-              </a>
-            </li>
+            
           </ul>
-          <a href="mailto:you@email.com" class="email-icon">
-            <img src="images/email.png" alt="" />
-          </a>
+         
         </div>
       </div>
     </header>
-
+    <br>
+    <br>
     <section class="home">
-      <img src="images/job-sharing-pair.png" class="home-img" alt="" />
+      <img src="images/job-sharing-pair.png" class="home-img" alt="" style="margin-right: -10%;" />
+     
       <div class="home-content">
         <h1>
-          We help to achieve <br />
-          your goals.
-        </h1>
+          PROJET 2A :  </h1>
+        
+      
+        <h3 style="color:black;">Entrainement d'un modèle de détection d'objets sur une base de données. </h3>
+        
         <p>
           Ce projet a été réalisé dans le cadre du projet de deuxième année du département informatique au sein de l'école des Mines de Nancy. <br/>
 
-          C'est le fruit d'un travail qui a été encadré par Monsieur Briot Loick et fait par CHANA Housna et GALMICHE Nathan.
+          C'est le fruit d'un travail qui a été encadré par Monsieur Briot Loick et réalisé par CHANA Housna et GALMICHE Nathan.
+          <p><i>(2021-2022)</i></p>
         </p>
         <a href=https://github.com/nathancirca/database_training class="btn">code source</a>
       </div>
@@ -70,10 +72,9 @@
             permettant de reconnaître des objets, effectuer de la squeletisation... etc 
             <br/>
             <br/>
-            L'idée est de continuer le travail déjà réalisé sur la plateforme d'annotation pour la rendre plus efficace,
-            plus facilement utilisable et développer de nouvelles fonctionnalités (export de données dans différents formats, 
-            annotation de vidéo, annotation d'image, 
-            annotation avec des formes polygonales et non rectangulaire comme souvent réalisé... etc)
+            L’idée est d’essayer de développer une nouvelle fonctionnalité, 
+            pour rendre un entrainement du modèle plus efficace .Ici, on s'intéressera à
+            l’export de données dans différents formats
             <br/>
         </p>
         <!-- <a href="contact.html" class="btn">Get Started</a> -->
@@ -85,49 +86,41 @@
               <div class="icon1">
                 <img src="images/001.png" alt="" />
               </div>
-              <h2>Phase de recherche</h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
-              nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+              <a href="#recherche" style="text-decoration:none;"><h2>I. Phase de recherche</h2></a>
             </div>
-            <div class="service">
+            <!-- <div class="service">
               <div class="icon">
                 <img src="images/002.png" alt="" />
               </div>
-              <h2>Phase d'initiation aux bases d'utilisation du framewok OpenCV</h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
-              nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
-            </div>
-            <div class="service">
+              <a href="#openCV" style="text-decoration:none "><h2>Phase d'initiation aux bases d'utilisation du framewok OpenCV</h2></a>
+            </div> -->
+            <!-- <div class="service">
               <div class="icon">
                 <img src="images/003.png" alt="" />
               </div>
-              <h2>Phase d'entrainement du modèle Yolov5 sur la dataset du robot SCAR</h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
-              nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
-            </div>
+              <a href="#entrainement1" style="text-decoration: none;"><h2>Phase d'entrainement du modèle Yolov5 sur la dataset du robot SCAR</h2></a>
+
+            </div> -->
             <div class="service">
               <div class="icon">
                 <img src="images/004.png" alt="" />
               </div>
-              <h2>Phase de création de notre propre dataset</h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
-              nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+              <a href="#bdd" style="text-decoration:none ;"><h2>II. Phase de création de notre propre dataset</h2></a>
+
             </div>
             <div class="service">
               <div class="icon">
                 <img src="images/005.png" alt="" />
               </div>
-              <h2>Phase de l'export en format YOLO et de la résolution des problèmes des classes</h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
-              nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+              <a href="#export" style="text-decoration:none ;"><h2>III. Phase de l'export en format YOLO et de la résolution des problèmes des classes</h2></a>
+              
             </div>
             <div class="service">
               <div class="icon">
                 <img src="images/006.png" alt="" />
               </div>
-              <h2>Phase d'entrainement du modèle Yolov5 sur notre dataset</h2>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
-              nemo sapiente in quidem sed dolores cumque! Ut, est aliquid!
+              <a href="#entrainement2" style="text-decoration:none ;"><h2>IV. Phase d'entrainement du modèle Yolov5 sur notre dataset</h2></a>
+              
             </div>
           </div>
     </section>
@@ -137,29 +130,29 @@
     <br/>
       <section>
         <div class="home-content2">
-          <div class="recherche">
-            <h1>Phase de recherche : </h1>
+          <div class="recherche" id="recherche">
+            <h1> I. Phase de recherche : </h1>
             <br>
             <ul class="q_recherche">
-                <li> <h3> Quelles sont les différentes bases de données qui existent? Quel sont leurs formats d'annotation?</h3>
+                <li> <h4> Quelles sont les différentes bases de données qui existent? Quel sont leurs formats d'annotation?</h4>
                 </li>
-                <li><h3> Quelles sont les différents types d'annotation?</h3></li>
+                <li><h4> Quelles sont les différents types d'annotation?</h4></li>
             </ul>
             <br>
-            <h3>Les bases de données trouvées : </h3>
+            <h3>1.Les bases de données trouvées : </h3>
             <p>Nous avons remarqué qu'il existe bien evidement un gand nombre de datasets contenant un volume important de contenu.
                 Nous avons choisi de s'intéresser à quelques unes.</p>
                 <!-- <ul class="datasets_list"> -->
-                    <div><a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit"><h4>Pascal VOC</h4></a> </div>
+                    <div><a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit" style="text-decoration:none;color:#1f73d9; "><h4>Pascal VOC</h4></a> </div>
                   <div>
                     <ul class="pascalvoc">
                        <li> Elle fournit des images standardisées pour la reconnaissance d'objets. </li>
                     <li>Elle contient 11 530 images et comporte 20 classes.</li>
                     <li> Format de données de Pascal VOC est : un fichier XML</li>
-                      <li>Le Bounding Box, qui est pour rappel une méthode d'annotation, a comme coordonnées: xmin-haut gauche, ymin-haut gauche,xmax-bas droite, ymax-bas droite</li>
+                      <li>Le Bounding Box, qui est pour rappel une méthode d'annotation, a comme coordonnées: <i> [x-haut gauche, y-haut gauche,x-bas droite, y-bas droite] </i></li>
                     </ul>
                 </div>
-              <div><a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit"><h4>COCO</h4></a> </div>
+              <div><a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit" style="text-decoration:none;color:#1f73d9; "><h4>COCO</h4></a> </div>
               <div>
                   <ul class="coco">
                      <li> COCO est constitué d'images à grande échelle avec des objets communs en contexte pour la détection d'objets, la segmentation et l'ensemble de données de sous-titrage. 
@@ -168,38 +161,36 @@
 
                   <li> COCO stocke les annotations dans un fichier JSON
                     </li>
-                    <li>Le Bounding Box, a comme coordonnées:  x-haut gauche, y-haut gauche, largeur, hauteur</li>
+                    <li>Le Bounding Box, a comme coordonnées: <i> [x-haut gauche, y-haut gauche, largeur, hauteur] </i> </li>
                   </ul>
               </div>
               <div>
-                <a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit"><h4>imageNET</h4></a> 
+                <a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit" style="text-decoration:none;color:#1f73d9; "><h4>imageNET</h4></a> 
               </div>
               <div>
                   <ul class="imageNet">
-                        <li> COCO est constitué d'images à grande échelle avec des objets communs en contexte pour la détection d'objets, la segmentation et l'ensemble de données de sous-titrage. </li>
-                      <li>COCO dispose de 1,5 million d'instances d'objets pour 80 catégories d'objets </li>
 
-                      <li> COCO stocke les annotations dans un fichier JSON
-                        </li>
-                        <li>Le Bounding Box, a comme coordonnées:  x-haut gauche, y-haut gauche, largeur, hauteur</li>
+                        <li>ImageNet est une grande base de données visuelle conçue pour être utilisée dans la recherche de logiciels de reconnaissance visuelle d'objets. </li>
+                        <li>Plus de 14 millions d' images ont été annotées à la main par le projet pour indiquer quels objets sont représentés et dans au moins un million d'images, des cadres de délimitation sont également fournis.</li>
+                        
+                        <li>ImageNet contient plus de 20 000 catégories</li> 
                   </ul>
               </div>
              <div>
-                <a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit"><h4>INRIA</h4></a> 
+                <a href="http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit" style="text-decoration:none;color:#1f73d9; "><h4>INRIA</h4></a> 
               </div>
               <div>
                   <ul class="inria">
-                          <li> COCO est constitué d'images à grande échelle avec des objets communs en contexte pour la détection d'objets, la segmentation et l'ensemble de données de sous-titrage. 
-                              </li>
-                        <li>COCO dispose de 1,5 million d'instances d'objets pour 80 catégories d'objets </li>
+                          <li> Fournit des bases de données différentes. </li>
+                          <li>Par exemple, horse dataset : reconnaît les chevaux et labellise avec des boites englobantes (et aussi de la segmentation) </li>
+                          <li>Les coordonnées d'une boîte englobante sont codées avec quatre valeurs en pixels : [x-haut gauche, y-haut gauche, x-bas droite, y-bas droite]</li> 
 
-                        <li> COCO stocke les annotations dans un fichier JSON
-                          </li>
-                          <li>Le Bounding Box, a comme coordonnées:  x-haut gauche, y-haut gauche, largeur, hauteur</li>
+                      
                   </ul>
+
               </div>
               <br>
-            <h3>Les types d'annotations : </h3>
+            <h3>2.Les types d'annotations : </h3>
             <p>
                 Déja, c'est quoi <b>annoter</b> des données ? </p> 
                 
@@ -215,102 +206,53 @@
               <p>
                   Nous avons choisi de s'interesser aux Bounding boxes (boites englobantes) puisque notre projet repose en gros sur cette technique d'annotation.
                   En effet, ce type d’annotation aide à faire des prédictions dans la vie réelle et à reconnaître les objets avec précision.
+                  <br>
+                  <i>Remarque :</i>
+                  <br>
+                  <p>Deux conventions principales sont suivies lors de la représentation des boîtes englobantes : </p>
+                    <ul>
+                      <li>Spécifier la boîte par rapport aux coordonnées de son point supérieur gauche et de son point inférieur droit.
+                       </li>
+                       <li> Spécifier la boîte par rapport à son centre, sa largeur et sa hauteur.</li>
+                       
+                    </ul>
+                   
+                    
               </p>
               <p>
-                <i>(IMAGE exemple) </i>
+                <img src="images/multiple_bboxes.jpg" alt="" style="width: 50%;"><p> <a href="https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/ "style="width: 5%;font-size:20px;margin-left:22%;text-decoration:none;">source</a></p>
             </p>
           </div> 
-        </div> 
+        <!-- </div>  -->
         <div class="home-content2">
-          <div class="openCV">
-            <h1>Phase d'initiation aux framework openCV' : </h1>
+          <div class="openCV" id="openCV">
+            <h1>II. Phase d'initiation aux framework OpenCV : </h1>
             <p>
-
-              Lorem ipsum dolor sit amet. Est recusandae aspernatur et voluptatem dolorum et veritatis dolores sit repellat aspernatur! Ut ipsa quisquam et accusantium possimus aut debitis sunt id harum consequatur sed animi maiores ut consequatur tempora a reprehenderit fuga! Sit autem atque qui amet illo et dolorem accusamus est pariatur beatae ad animi quia qui galisum doloribus aut illo repudiandae. In quisquam totam et velit quae et dicta exercitationem et perferendis cumque rem assumenda quis est enim neque aut repellendus dolores.
-              
-              Et ducimus omnis qui itaque autem hic officia voluptatibus ut assumenda laudantium. Aut tempore minus non consequatur voluptas et temporibus omnis et voluptas quasi et quia impedit sit animi distinctio aut repudiandae necessitatibus? Aut maiores voluptatem rem autem voluptatem eos recusandae molestiae ea internos enim ut sunt quod numquam recusandae. Sit maiores mollitia id dolore debitis id asperiores ipsam!
-              
-              Qui aliquid autem cum nobis voluptas est deserunt quia. Non debitis harum eos doloremque voluptatem qui rerum odio et vitae recusandae aut sunt labore?
+              OpenCV, est OpenCV est une bibliothèque graphique libre, spécialisée dans le traitement d'images en temps réel.
+              Elle permet d’effectuer des traitements sur des images à savoir l'extraction de couleurs, la détection de visages, de formes, application de filtres,... 
+              <br>
+              Ces algorithmes se basent principalement sur des calculs mathématiques complexes, concernant surtout les traitements sur les matrices
+              (car une image peut être considérée comme une matrice de pixels).
+            
               </p>
          
           </div> 
         </div>
         <br>
-        <div class="home-content2"> 
-            <div class="entrainement1">
-              <h1>Phase d'entrainement 1 : </h1>
-              <br>
-              <h2>C'est quoi YOLOv5 ?</h2>
-              <p>
-                YOLO, acronyme de 'You only look once', 
-                est un algorithme de détection d'objet qui divise les images en un système de grille. 
-                Chaque cellule de la grille est responsable de la détection des objets en elle-même. 
-                YOLOv5 représente la version la plus récente de l'algorithme YOLO, et c'est en se servant de lui que nous allons entrainer notre propre dataset.
-              </p>
-              
-              <br/>
-              <h2>Préparation de notre première dataset </h2>
-              <p>Pour le moment, n'ayant pas encore créé notre base de données, on se servira de la base de donnée du robot SCAR que nous avons nommée "Spot_recognition" et qui contient 1017 images.
-
-                En gros,nous avons regroupé des 
-                images du robot SCAR et bien évidement
-                 nous avons ajouté d'autres images qui 
-                 ne contiennent pas le robot pour éviter le problème de surapprentissage </p>
-                <br/>
-              <p>
-                <i>(Image de la dataset) </i>
-                <h2>
-                  c'est temps d'entrainer !
-                </h2>
-                <p>
-                  Afin d'entrainer notre dataset , nous avons utilisé la plateforme Roboflow qui nous a permit d'annoter toutes nos images et puis de diviser notre dataset en une dataset d'entrainement "train" et une autre pour le "test" .
-                  Ensuite, nous avons suivi les commandes suivantes : 
-                  <br/>
-                  <br/>
-                  <br/>
-                  On commence par cloner le YOLOV5 repository sur github : <br/>
-                  <h4>git clone https://github.com/ultralytics/yolov5.git</h4>
-                  <br/>
-                  Ensuite, on entraine notre base de données en lançant le script "train.py" : <br/> 
-                  <h4>python3 train.py --weights yolov5s.pt --data ../Spot_recognition/data.yaml --epochs 10 --batch 1 </h4> <br/>
-                  A titre d'information , le batch size correspond au nombre d'échantillons traités avant la mise à jour du modèle.
-                  Le nombre d'époques correspond au nombre de passages complets dans l'ensemble de données d'apprentissage.
-                  <br>
-                  Ici, nous avons sélectionné YOLOv5s, le modèle le plus petit et le plus rapide disponible. 
-                  Pour rappel , il existe d'autres modèles : <br/></p>
-                <a href="https://github.com/ultralytics/yolov5/releases">Pour plus d'informations</a><br/>
-                  <img src="images/yolov5s.png" target="_blank" alt="" style="width: 100%;"/>
-                  <br/>
-                  En se servant d'une caméra, et après avoir lancer la commande suivante , on s'assure si notre modèle arrive a différencier entre un robot scar et un autre objet. <br/>
-
-                  <h4>python3 detect.py --weights runs/train/exp6/weights/best.pt --source 0 </h4>
-                  Le exp6 est un fichier qui a été créé suite à l'entrainement du modèle. La source 0 veut simplement dire qu'on a utilisé une caméra.
-                  <br/>
-                  <p>Dans notre cas,  notre modèle arrivait à reconnaitre le robot scar, par contre parfois il ne distinguait pas entre une chaise et le robot ou entre un objet coloré en jaune et le robot!   </p>
-                  <h4>python3 val.py --weights runs/train/exp6/weights/best.pt --data ../dataset_waffle/data.yaml --task test </h4>
-                  <i>(Clarificication )</i>
-                </p>
-                <p>Les résultats n'étaient pas satisfaisantes, du coup nous avons :
-                  <ul>
-                    <li>Ajouter plus de données à la base Spot_recognition</li>
-                    <li>Annoter les nouvelles images avec Roboflow</li>
-                    <li>Réentrainer le modèle Yolov5</li>
-                  </ul> 
-                </p>
-                <p>Conclusion : Notre deuxième tentative était meilleure que la première; et c'est là ou on a vraiment compris l'importance d'avoir plus de données pour entrainer un modèle!</p>
-            </div>
+        
             <div class="home-content2"> 
-              <div class="bdd">
-                <h1>Phase de création de notre propre jeu de données : </h1>
+              <div class="bdd" id="bdd">
+                <h1> IV. Phase de création de notre propre jeu de données : </h1>
                 Ayant compris l'importance d'un grand volume de données; nous avons décidé de créer une base de donnée sous SQLite qui regroupera des images issues des datasets suivantes :
                 <ul>
                   <li>PASCAL VOC</li>
                   <li>COCO</li>
-                  <li>Dataset waffles (déja crééé)</li>
+                  <li>Dataset waffles (déja créée)</li>
                   <li>Spot_recognition</li>
                   <li>Dataset running</li>
                 </ul>
-                <h1>Architecture de la base de donnée :</h1>
+                <br>
+                <h3>1.Architecture de la base de données :</h3>
                 <p>
                 Pour rappel, l'objectif est de créer une base de données qu'on pourra l'utiliser quelque soit le format d'annotation. <br>
                 Avant de remplir notre base, il fallait alors penser à une architecture qui va nous permettre à réaliser notre objectif.
@@ -319,12 +261,178 @@
                 </p>
                 <p>L'idée était alors de concevoir une base de donnée sous SQlite ayant 3 tables : 
                   <ul class="réentrainement">
-                    <li>une table Images; qui contiendera nos images avec leurs chemins </li>
+                    <li>une table Images; qui contiendera nos images avec leurs chemins </li> 
+                    <br>
+                    <li style="list-style-type: none;"><img src="images/Images_table.png" alt=""></li>
+                    <br>
                     <li>une table Objets; qui contient chaque objet dans une image (selon le fichier d'annotations) et un numéro de classe qu'on va lui attribuer </li>
-                    <li>une table Lignes; qui contiendera les points x1,y1,x2 et y2 .C'est-à-dire les points du bounding box (xmin-haut gauche, ymin-haut gauche,xmax-bas droite, ymax-bas droite) </li>
+                    <li style="list-style-type: none;"><img src="images/Objets_table.png" alt=""></li>
+                    <br>
+                    <li>une table Lignes; qui contiendera les points x1,y1,x2 et y2 .C'est-à-dire les coordonnées des points qui constituent le bounding box (xmin-haut gauche, ymin-haut gauche,xmax-bas droite, ymax-bas droite) </li>
+                    <br>
+                    <li style="list-style-type: none;"><img src="images/Ligne_table.png" alt=""></li>
+                  
                   </ul>
+                  
                 </p>
-                <i>(SCreen dataset)</i>
+                <h3>2.Remplir la base de données :</h3>
+                En se servant des bases de données suivantes : 
+                <img src="images/les bds.png" target="_blank" alt="" style="width: 70%;"/>
+                <br>
+                On ajoute ces bases de données dans notre dataset, la difficulté de cette étape repose sur le fait que contrairement aux autres datasets , 
+                PASCAL Voc a un format d'annotation different, d'où la nécessité d'écrire un code en python :
+                <a href="https://github.com/nathancirca/database_training/blob/main/fill_pascalvoc.py" style="text-decoration: None; color:rgb(85, 49, 168);">fill pacal.py</a>
+                qui permet l'ajout des images de cette base de données.
+              </div>
+            </div> 
+            <div class="home-content2"> 
+                <div class="export" id="export">
+                  <h1>V. Phase de l'export : </h1> 
+                  <br>
+                  A fin d'entrainer le modèle YOLOV5, nous avons besoin d'un dossier d'annotation en format TXT.
+                  C'est pour cela que nous avons créée un script python :
+                  <a href="https://github.com/nathancirca/database_training/blob/main/convert_txt.py" style="text-decoration: None; color:rgb(85, 49, 168);">convert_txt.py</a>
+                  qui permet d'avoir les annotations de chaque image. <br>
+                  En effet, pour chaque image de notre base de donnée ,on a un fichier d'annotation correspondant à cette image.
+                  Dans ce fichier , on a des lignes ou chaque ligne contient : <br>
+                  <p>
+                  <i style="font-size: 80%;padding-right:3%;">la classe dont appartient l'objet</i>  <i style="font-size: 80%;padding-right:4%;">x_centre du bounding boxe de l'objet</i> <i style="font-size: 80%;padding-right:4%;">y_centre du bounding boxe de l'objet</i> <i style="font-size: 80%;padding-right:4%;">largeur</i> <i style="font-size: 80%;padding-right:5%;">hauteur</i> 
+                  <br>
+
+                  </p>
+                  Cependant, la classe numero "1" de la base Spot_recognition définie un "robot scar", alors que dans la base de données PASCAL VOC la première classe définie un "background" . 
+                  Ceci nous a posé un problème dont on a touvé comme solution : <br>
+                  écriture d'un script python (fill_pascal.py) qui donne la possibilité à l'utilisateur de modifier la classe , voire d'ajouter d'autres noms pour la meme classe 
+                  ,par exemple dans notre base de données : <br>
+                  <i>
+                  la classe numéro 14 correspont à "chien,dog" </i> 
+                </div>
+                </div>
+                <div class="home-content2"> 
+                  <div class="entrainement2" id="entrainement2">
+                    <h1>VI. Phase de l'entrainement final : </h1> 
+              
+                        <br>
+                        <h3>1.YOLOV5 </h3>
+                        <p>
+                          YOLO, acronyme de 'You only look once', 
+                          est un algorithme de détection d'objet qui divise les images en un système de grille. 
+                          Chaque cellule de la grille est responsable de la détection des objets en elle-même. 
+                          YOLOv5 représente la version la plus récente de l'algorithme YOLO, et c'est en se servant de lui que nous allons entrainer notre propre dataset.
+                        </p>
+                        
+                        <br/>
+                        <h3>2.Préparation de notre première dataset </h3>
+                        <p>Après avoir créer et remplir notre base de données , on peut commencer alors l'entrainement !
+          
+                          
+                        <p>
+             
+                          <h3>
+                            3.Il est temps d'entrainer !
+                          </h3>
+                          <p>
+                            
+                            On commence par cloner le YOLOV5 repository sur github : <br/>
+                            <h4>git clone https://github.com/ultralytics/yolov5.git</h4>
+                            <br/>
+                            Ensuite, on entraine notre base de données en lançant le script "train.py" : <br/> 
+                            <h4>python3 train.py --weights yolov5m.pt --data ../entrainement/data.yaml --epochs 100 --batch 50 </h4> <br/>
+                            A titre d'information , le batch size correspond au nombre d'échantillons traités avant la mise à jour du modèle.
+                            Le nombre d'époques correspond au nombre de passages complets dans l'ensemble de données d'apprentissage.
+                            <br>
+                            Ici, nous avons sélectionné YOLOv5m.
+                            Pour rappel , il existe d'autres modèles : <br/></p>
+                          <a href="https://github.com/ultralytics/yolov5/releases"  style="text-decoration:none;color:rgb(85, 49, 168);">Pour plus d'informations</a><br/>
+                            <img src="images/yolov5s.png" target="_blank" alt="" style="width: 100%;"/>
+                            <br/>
+                            En se servant d'une caméra, et après avoir lancer la commande suivante , on s'assure si notre modèle arrive à bien détecter les objets. <br/>
+                            <br>
+                          
+                            <h4>python3 detect.py --weights runs/train/exp15/weights/best.pt --source 0 </h4>
+                            Le exp15 est un fichier qui a été créé suite à l'entrainement du modèle. La source 0 veut simplement dire qu'on utilise une caméra.
+                            <br/>
+                            <p>Dans notre cas, notre modèle arrivait à reconnaitre quelques classes , par exemple les personnes et les écrans (Tv) ,cependant il se trompait plusieurs fois  . </p>
+                            <br>
+                            <h4>python3 val.py --weights runs/train/exp15/weights/best.pt --data ../entrainement/data.yaml --task test </h4>
+                            
+                          </p>
+                          
+                          
+                          <p>En se servant de Tensorboard, qui est une plateforme qui fournit les solutions de visualisation et les outils nécessaires aux tests de machine learning ; on trouve les représentations des metrics suivantes : </p>
+                          <img src="images/metrics.png" alt="">
+                          <p>
+                            En géneral, en faisant du machine learning, il est intéressant de comprendre l'interprétation des résultats qu'on trouve par la suite.
+                            Pour ceci, il faut tout d'abord comprendre certains termes lié au Machine Learning.
+                          </p>
+                          
+                          <p>
+                            <b>La précision: </b>
+                            <br>
+                             mesure l'exactitude de vos prédictions, c'est-à-dire le pourcentage de vos prédictions qui sont correctes.
+                             <br>
+                             Plus la precision est haute, moins le modèle se trompe sur les positifs.
+                             <br>
+                             En d’autres termes c’est le nombre de positifs bien prédit (Vrai Positif) divisé par l’ensemble des positifs prédit (Vrai Positif + Faux Positif).
+                            <br>
+                             <b>Le rappel :</b>
+                             <br>
+                            permet de mesurer le pourcentage de positifs bien prédit par notre modèle.
+                            <br>
+                            Plus il est élevé, plus le modèle de Machine Learning maximise le nombre de Vrai Positif.
+                            Si sa valeur augmente , cela veut plutôt dire qu’il ne ratera aucun positif.
+                            Néanmoins cela ne donne aucune information sur sa qualité de prédiction sur les négatifs.
+                            <br>
+                            En d’autres termes c’est le nombre de positifs bien prédit (Vrai Positif) divisé par l’ensemble des positifs (Vrai Positif + Faux Négatif).
+                            <br>
+                            <b>F1 score : </b> <br>
+                            Le F1 Score permet d’effectuer une bonne évaluation de la performance de notre modèle.
+                            Si le score est élevé, le plus votre modèle est performant.
+                            Il se calcule en fonction de la précision et du recall.
+                            <br>
+                            <b>Les pertes :</b> <br>
+                            On a trois types de perte : perte de boîte, perte d'objet et perte de classification. 
+                            <br>
+                            La perte de boîte représente la capacité de l'algorithme à localiser le centre d'un objet et la capacité de la boîte limite prédite à couvrir un objet. 
+                            <br>
+                            L'objectivité est essentiellement une mesure de la probabilité qu'un objet existe dans une région d'intérêt proposée. Si l'objectivité est élevée, cela signifie que la fenêtre d'image est susceptible de contenir un objet. 
+                            <br> 
+                            La perte de classification donne une idée de la capacité de l'algorithme à prédire la classe correcte d'un objet donné.
+
+                            Le modèle s'est rapidement amélioré en termes de précision, de rappel et de précision moyenne . 
+                            La boîte, l'objectalité et les pertes de classification des données de validation ont également montré une baisse rapide.
+                           <br>
+                           
+                           <b>La mAP :</b>
+                           <br>
+                           La mAP pour la détection d'objets est la moyenne de la AP calculée pour toutes les classes.
+
+                            
+                           
+                          </p>
+                          <section >
+                            <div class="home-content">
+                              <h3 style="color:var(--secondary-color)">Conclusion : </h3>
+                              <p>
+                                Ce projet s’est révélé très enrichissant et formative.
+                                <br>
+                            Il nous a permis d’appliquer nos connaissances en apprentissage automatique, en développement (python) et en bases de données (SQLite).
+                            <br>  
+
+                            Les principaux problèmes, que nous avons rencontrés, concernaient surtout le temps d'entrainer un modèle, de vérifier les données de notre base et d'interpréter les résultats. 
+                            <br>
+
+                            Toutefois, il serait intéressant de continuer le travail sur ce projet et développer d'autres fonctionnalités à part celle de l'export.
+
+                              </p>
+                            </div>
+                            
+ 
+                          </section>
+                      </div>
+
+
+
 
 
       </section>
