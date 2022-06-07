@@ -188,7 +188,7 @@ section.home {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 50px;
   text-align: center;
 }
 
@@ -360,6 +360,7 @@ section.home {
     margin-top: 20px;
     padding: 30px 30px 20px;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -376,6 +377,22 @@ section.home {
   margin-top: 950px; 
     
   }
+  .home-content2 {
+    margin-left: 10%;
+    width: 600px;
+    margin-right: 170px;
+  }
+  .recherche {
+    margin-left: 10%;
+    width: 600px;
+    margin-right: 170px;
+    margin-top: -5%;
+  }
+  .home-content{
+    width: 450px;
+    padding: 10px;
+  }
+  
 }
 .recherche h1 {
   color : var(--secondary-color);
