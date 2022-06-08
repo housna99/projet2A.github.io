@@ -366,7 +366,7 @@ section.home {
 @media (max-width: 768px) {
   .services {
     grid-template-columns: 1fr;
-    margin-bottom: 500px;
+    margin-bottom: 700px;
    
   }
 
@@ -379,14 +379,14 @@ section.home {
     
   } */
   .home-content2 {
-    margin-top: 30%; 
+    
     margin-left: 40%;
     width: 600px;
     margin-right: 170px;
   }
   
   .home-content{
-    width: 450px;
+    width: 400px;
     padding: 10px;
   }
   .recherche , .openCV, .bdd, .export, .entrainement2{
@@ -395,6 +395,7 @@ section.home {
     margin-right: 170px;
     margin-top: 40%;
   }
+ 
   
 }
 .recherche h1 {
