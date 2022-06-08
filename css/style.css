@@ -366,31 +366,34 @@ section.home {
 @media (max-width: 768px) {
   .services {
     grid-template-columns: 1fr;
+    margin-bottom: 500px;
    
   }
 
   .etape_projet .services .service {
     box-shadow: 0 10px 30px rgba(182, 32, 32, 0.1);
   }
- .recherche {
+ /* .recherche {
    
-  margin-top: 950px; 
+  margin-top: 999px; 
     
-  }
+  } */
   .home-content2 {
-    margin-left: 20%;
+    margin-top: 30%; 
+    margin-left: 40%;
     width: 600px;
     margin-right: 170px;
   }
-  .recherche {
+  
+  .home-content{
+    width: 450px;
+    padding: 10px;
+  }
+  .recherche , .openCV, .bdd, .export, .entrainement2{
     margin-left: 20%;
     width: 600px;
     margin-right: 170px;
     margin-top: 40%;
-  }
-  .home-content{
-    width: 450px;
-    padding: 10px;
   }
   
 }
